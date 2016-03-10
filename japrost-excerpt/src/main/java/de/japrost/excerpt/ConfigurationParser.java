@@ -17,7 +17,7 @@ import java.util.Properties;
  */
 public class ConfigurationParser {
 
-	File file = new File("./src/de.japrost.excerpt/resources/in.properties");
+	File file = new File("./src/test/resources/in.properties");
 
 	Properties readConfiguration() {
 		Properties p = new Properties();

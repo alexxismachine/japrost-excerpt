@@ -34,6 +34,8 @@ public class ImageMaker {
 	double spacerHight;
 
 	BufferedImage createImage() {
+		// TODO allow to switch alpha channel
+		//BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 		BufferedImage img = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 		img.createGraphics();
 		Graphics2D g = (Graphics2D)img.getGraphics();
@@ -70,7 +72,7 @@ public class ImageMaker {
 		spacerHight = calculateSpacerHeight(renderLines);
 
 		int topSpace = marginTop;
-		g.setColor(Color.black);
+		g.setColor(Color.white);
 		if (debug) {
 			debugDrawMargin(g);
 		}
