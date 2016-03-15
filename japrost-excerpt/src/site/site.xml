@@ -23,12 +23,6 @@
         href="index.html" />
     </menu>
 
-    <menu name="Projekt Aufbau">
-      <item
-        name="Impressum"
-        href="../../imprint.html" />
-    </menu>
-
     <menu
       ref="reports"
       inherit="bottom" />
