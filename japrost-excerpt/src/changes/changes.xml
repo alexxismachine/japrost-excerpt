@@ -5,7 +5,8 @@
   <body>
     <release
       version="0.0.2"
-      description="pom and reports">
+      description="pom and reports"
+      date="2017-05-10">
       <action type="add">
         Add changes report.
       </action>
