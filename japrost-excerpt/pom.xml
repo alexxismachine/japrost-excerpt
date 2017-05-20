@@ -9,7 +9,7 @@
 
   <groupId>de.japrost.excerpt</groupId>
   <artifactId>excerpt</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <name>Excerpt Poster Generator</name>
   <description>Generate posters containing book excerpts</description>
@@ -38,6 +38,6 @@
   <scm>
     <developerConnection>scm:git:git://bitbucket.org/daprost/japrost-excerpt</developerConnection>
     <url>https://bitbucket.org/daprost/japrost-excerpt</url>
-    <tag>excerpt-0.0.2</tag>
+    <tag>HEAD</tag>
   </scm>
 </project>
